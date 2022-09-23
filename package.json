@@ -1,0 +1,24 @@
+{
+  "name": "katya",
+  "version": "1.0.0",
+  "description": "Katya Meneses Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "upsass": "sass --watch ./scss:public/css"
+  },
+  "keywords": [
+    "portfolio",
+    "katya",
+    "meneses",
+    "ux",
+    "desin",
+    "ui"
+  ],
+  "author": "Alvaro Beltran",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "sass": "^1.55.0"
+  }
+}
