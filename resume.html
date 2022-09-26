@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Merriweather:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./public/images/favicon-32x32.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./public/css/styles.css" />
+    <title>Resume | Katya Meneses</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md sticky-top">
+      <div class="container-lg container-xl py-4">
+        <a class="navbar-brand" href="/"
+          ><img src="./public/images/Logo.webp" alt="" height="90"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <a class="navbar-brand" href="/"
+              ><img src="./public/images/Logo.webp" alt="" height="90"
+            /></a>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/portfolio.html">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/resume.html">RESUME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">LINKEDIN</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section id="resume" class="resume container justify-content-center">
+      <span class="resume__download w-100">
+        <a href="./public/files/Katya Meneses Resume.pdf" class="text-dark"> Download it Here</a>
+      </span>
+      <span class="resume__display">
+        <img src="./public/images/resume/resume.png" class="shadow" alt="Katya meneses resume" />
+      </span>
+    </section>
+  </body>
+</html>
