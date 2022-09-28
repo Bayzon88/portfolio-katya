@@ -23,75 +23,154 @@
     <title>UX - Katya Meneses</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md sticky-top">
-      <div class="container-lg container-xl py-4">
-        <a class="navbar-brand" href="/"
-          ><img src="./public/images/Logo.webp" alt="" height="90"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="offcanvas offcanvas-start"
-          tabindex="-1"
-          id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel"
-        >
-          <div class="offcanvas-header">
-            <a class="navbar-brand" href="/"
-              ><img src="./public/images/Logo.webp" alt="" height="90"
-            /></a>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/portfolio.html">PORTFOLIO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/resume.html">RESUME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">LINKEDIN</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <section id="main" class="main">
-      <div class="container-lg py-5">
-        <div class="row justify-content-md-center">
-          <div class="col col-lg-6 col-md-6 col-sm-12 col-12 hero-image-container">
-            <img
-              src="./public/images/hero_home.webp"
-              alt="Book with doodles of UX Design. There are eye glasses on the side of the book"
-              height="auto"
-            />
-          </div>
-          <div class="col col-lg-6 col-md-6 col-sm-12 col-12">
-            <p>
-              Hello, I'm Katya Meneses Welcome There's much to see here. So, take your time, take a
-              look around.
-            </p>
+    <div id="hero" class="">
+      <div id="hero-image"></div>
+      <nav class="navbar navbar-expand-md sticky-top bg-transparent">
+        <div class="container-lg container-xl bg-transparent">
+          <a class="navbar-brand" href="/"
+            ><img src="./public/images/Logo.webp" alt="" height="90"
+          /></a>
+          <button
+            class="navbar-toggler bg-transparent"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <a class="navbar-brand" href="/"
+                ><img src="./public/images/Logo.webp" alt="" height="90"
+              /></a>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body bg-transparent">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 bg-transparent">
+                <li class="nav-item bg-transparent">
+                  <a class="nav-link active bg-transparent" aria-current="page" href="/">HOME</a>
+                </li>
+                <li class="nav-item bg-transparent">
+                  <a
+                    class="nav-link active bg-transparent"
+                    aria-current="page"
+                    href="/portfolio.html"
+                    >PORTFOLIO</a
+                  >
+                </li>
+                <li class="nav-item bg-transparent">
+                  <a class="nav-link active bg-transparent" aria-current="page" href="/resume.html"
+                    >RESUME</a
+                  >
+                </li>
+                <li class="nav-item bg-transparent">
+                  <a class="nav-link active bg-transparent" aria-current="page" href="#"
+                    >LINKEDIN</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </nav>
+      <section id="main" class="main bg-dark position-relative">
+        <div class="container-lg py-3 bg-transparent">
+          <div class="row justify-content-md-center">
+            <div class="col col-lg-6 col-md-6 col-sm-12 col-12 hero-image-container"></div>
+            <div
+              class="col col-lg-6 col-md-6 col-sm-12 col-12 flex-column d-flex justify-content-center"
+            >
+              <p>
+                <span> Hello there! </span>
+                <span>
+                  I'm
+                  <h1>Katya Meneses</h1>
+                </span>
+              </p>
+
+              <p>
+                <b style="font-size: 1.4rem"> Welcome</b>, there's much to see here. <br />
+                So, take your time, take a look around.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio" class="portfolio mt-5 bg-transparent">
+        <div class="container justify-content-center">
+          <h2>Come check out some of my work</h2>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+              <div class="card shadow bg-body border-0">
+                <a id="riseAirAnchor" href="./rise.html" class="">
+                  <img
+                    src="./public/images/portfolio/rise_air.webp"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body bg-primary">
+                    <h5 class="car-title text-center fw-bold bg-primary text-dark">RiseAir</h5>
+                    <p class="card-text bg-primary text-dark">
+                      Some quick example text to build on the card title and make up the bulk of the
+                      card's content.
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+              <div class="card shadow bg-body border-0">
+                <a href="./ovaccine.html">
+                  <img
+                    src="./public/images/portfolio/ontario_vaccine.webp"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body bg-primary">
+                    <h5 class="car-title text-center fw-bold bg-primary text-dark">
+                      Ontario Vaccine
+                    </h5>
+                    <p class="card-text bg-primary text-dark">
+                      Some quick example text to build on the card title and make up the bulk of the
+                      card's content.
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+              <div class="card shadow bg-body border-0">
+                <a href="./newcomer.html">
+                  <img
+                    src="./public/images/portfolio/newcomer.webp"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body bg-primary">
+                    <h5 class="car-title text-center fw-bold bg-primary text-dark">NewComer</h5>
+                    <p class="card-text bg-primary text-dark">
+                      Some quick example text to build on the card title and make up the bulk of the
+                      card's content.
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
     <!-- Bootstrap JS CDN  -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
