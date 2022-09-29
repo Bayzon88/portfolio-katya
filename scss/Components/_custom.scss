@@ -1,0 +1,8 @@
+//Customizing bootstrap
+$offcanvas-horizontal-width: 100vw;
+$grid-gutter-width: 2rem;
+$primary: rgb(244, 243, 246);
+$link-decoration: none !important;
+
+//Import Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

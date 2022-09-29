@@ -7,8 +7,20 @@
   font-family: "Lato", arial, sans-serif;
 }
 
-.hero-image-container > img {
-  width: 100%;
+#footer > div > span {
+  width: 250px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  display: flex;
+  justify-items: center;
+}
+#footer > div > span > a {
+  display: flex;
+  align-items: center;
+}
+#footer > div > span a > i {
+  color: #0e76a8;
+  font-size: 1.4rem;
 }
 
 .resume__download > a {
@@ -261,7 +273,7 @@ sup {
 
 a {
   color: var(--bs-link-color);
-  text-decoration: underline;
+  text-decoration: none !important;
 }
 a:hover {
   color: var(--bs-link-hover-color);
@@ -3103,7 +3115,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: transparent;
   --bs-btn-box-shadow: none;
   --bs-btn-focus-shadow-rgb: 207, 207, 209;
-  text-decoration: underline;
+  text-decoration: none !important;
 }
 .btn-link:focus-visible {
   color: var(--bs-btn-color);

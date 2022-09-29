@@ -1,0 +1,15 @@
+#footer > div > span {
+  width: 250px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  display: flex;
+  justify-items: center;
+  & > a {
+    display: flex;
+    align-items: center;
+  }
+  & a > i {
+    color: #0e76a8;
+    font-size: 1.4rem;
+  }
+}
