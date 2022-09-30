@@ -2,7 +2,8 @@
 $offcanvas-horizontal-width: 100vw;
 $grid-gutter-width: 2rem;
 $primary: rgb(244, 243, 246);
+$secondary: #776391;
 $link-decoration: none !important;
-
+$navbar-light-toggler-border-color: transparent;
 //Import Bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";

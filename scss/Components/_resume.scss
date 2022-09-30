@@ -1,5 +1,30 @@
-.resume__download > a {
-  color: blue;
+@import "../Components/custom";
+$download-button-sides: 4rem;
+
+.resume__download {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+
+  background-color: transparent;
+  a {
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50%;
+    top: 0;
+    width: $download-button-sides;
+    height: $download-button-sides;
+    background-color: $primary;
+    i {
+      border-radius: 20%;
+      background-color: $primary;
+      font-size: calc($download-button-sides - 1.4rem);
+      color: $secondary;
+    }
+  }
 }
 
 a:visited {

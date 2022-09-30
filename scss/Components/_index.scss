@@ -6,7 +6,7 @@ body {
   & > img {
     // border: 1px solid black;
     border-radius: 1px;
-    box-shadow: 2px 2px 5px rgb(153, 127, 244);
+    box-shadow: 2px 2px 5px #776391;
   }
 }
 .intro {
@@ -18,7 +18,7 @@ body {
 .katya {
   font-size: 1.4rem;
   h1 {
-    color: rgba(165, 32, 165, 0.67);
+    color: #776391;
   }
 }
 
@@ -36,4 +36,8 @@ body {
     color: #0e76a8;
     font-size: 1.4rem;
   }
+}
+
+.card-body {
+  min-height: 7rem;
 }
