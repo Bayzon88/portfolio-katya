@@ -7,6 +7,33 @@
   font-family: "Lato", arial, sans-serif;
 }
 
+p {
+  margin: 0px;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+.hero-image-container > img {
+  border-radius: 1px;
+  box-shadow: 2px 2px 5px rgb(153, 127, 244);
+}
+
+.intro {
+  font-size: 1.4rem;
+}
+.intro span {
+  font-size: 2rem;
+}
+
+.katya {
+  font-size: 1.4rem;
+}
+.katya h1, .katya .h1 {
+  color: purple;
+}
+
 #footer > div > span {
   width: 250px;
   font-size: 1rem;
@@ -21,6 +48,13 @@
 #footer > div > span a > i {
   color: #0e76a8;
   font-size: 1.4rem;
+}
+
+.video {
+  display: flex;
+}
+.video iframe {
+  min-height: 100%;
 }
 
 .resume__download > a {

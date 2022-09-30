@@ -1,3 +1,27 @@
+body {
+  scroll-behavior: smooth;
+}
+//Main section
+.hero-image-container {
+  & > img {
+    // border: 1px solid black;
+    border-radius: 1px;
+    box-shadow: 2px 2px 5px rgb(153, 127, 244);
+  }
+}
+.intro {
+  font-size: 1.4rem;
+  span {
+    font-size: 2rem;
+  }
+}
+.katya {
+  font-size: 1.4rem;
+  h1 {
+    color: purple;
+  }
+}
+
 #footer > div > span {
   width: 250px;
   font-size: 1rem;

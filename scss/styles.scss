@@ -5,8 +5,13 @@
   background-color: white;
   font-family: "Lato", arial, sans-serif;
 }
+p {
+  margin: 0px;
+}
 
 @import "./Components/index";
+@import "./Components/portfolio";
+
 @import "./Components/resume";
 @import "./Components/custom";
 @import "./Components/navbar";
