@@ -92,7 +92,22 @@
     <section id="main" class="main">
       <div class="container-lg py-1">
         <div class="row justify-content-md-center">
-          <div class="col col-lg-8 col-md-8 col-sm-12 col-12 hero-image-container">
+          <div
+            class="col d-flex d-md-none d-lg-none d-xl-none col flex-column text-start justify-content-center bg-transparent"
+          >
+            <span class="intro"> Hello there! <span> 👋 </span> </span>
+
+            <div class="d-flex align-items-center katya">
+              <p class="m-0">I'm</p>
+              <h1 class="d-flex ps-2 m-0">Katya Meneses</h1>
+            </div>
+
+            <p class="m-0">
+              <b style="font-size: 1.4rem"> Welcome</b>, there's much to see here. <br />
+              So, take your time, take a look around.
+            </p>
+          </div>
+          <div class="col col-lg-7 col-md-7 col-sm-12 col-12 hero-image-container">
             <img
               src="./public/images/hero_home.webp"
               alt="Book with doodles of UX Design. There are eye glasses on the side of the book"
@@ -101,7 +116,7 @@
             />
           </div>
           <div
-            class="col d-sm-none d-md-flex col flex-column text-start justify-content-center bg-transparent"
+            class="col d-none d-md-flex d-lg-flex col flex-column text-start justify-content-center bg-transparent"
           >
             <span class="intro"> Hello there! <span> 👋 </span> </span>
 
@@ -120,11 +135,11 @@
     </section>
     <section id="portfolio" class="portfolio my-lg-5 py-lg-3 my-md-5">
       <div class="container-lg justify-content-center">
-        <h2>Come check out some of my work</h2>
-        <div class="row justify-content-center w-100">
+        <h2 class="mt-5 mt-md-0">Come check out some of my work</h2>
+        <div class="row d-flex justify-content-center">
           <div class="col-lg-4 col-md-6 col-sm-12 mt-4 d-flex justify-content-center">
             <a href="./rise_air.html" class="text-dark">
-              <div class="card shadow bg-body border-0" style="max-width: 25rem">
+              <div class="card shadow bg-body border-0" style="max-width: 27rem">
                 <img src="./public/images/portfolio/rise_air.webp" class="card-img-top" alt="..." />
                 <div class="card-body bg-primary">
                   <h5 class="car-title text-center fw-bold bg-primary">RiseAir</h5>
@@ -139,10 +154,10 @@
 
           <div class="col-lg-4 col-md-6 col-sm-12 mt-4 d-flex justify-content-center">
             <a href="./ontario_vaccine.html" class="text-dark">
-              <div class="card shadow bg-body border-0" style="max-width: 25rem">
+              <div class="card shadow bg-body border-0" style="max-width: 27rem">
                 <img
                   src="./public/images/portfolio/ontario_vaccine.webp"
-                  class="card-img-top"
+                  class="card-img-top d-flex justify-content-center"
                   alt="..."
                 />
                 <div class="card-body bg-primary">
@@ -157,7 +172,7 @@
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 mt-4 d-flex justify-content-center">
             <a href="./newcomer.html" class="text-dark">
-              <div class="card shadow bg-body border-0" style="max-width: 25rem">
+              <div class="card shadow bg-body border-0" style="max-width: 27rem">
                 <img src="./public/images/portfolio/newcomer.webp" class="card-img-top" alt="..." />
                 <div class="card-body bg-primary">
                   <h5 class="car-title text-center fw-bold bg-primary">NewComer</h5>
@@ -179,7 +194,10 @@
           <a class="bg-primary text-dark" href="#portfolio">Portfolio</a>
 
           <a class="bg-primary text-dark" href="./resume.html">Resume</a>
-          <a class="bg-primary text-dark" href="https://www.linkedin.com/in/katyameneses/"
+          <a
+            target="_blank"
+            class="bg-primary text-dark"
+            href="https://www.linkedin.com/in/katyameneses/"
             ><i class="fa-brands fa-linkedin"></i>
           </a>
         </span>

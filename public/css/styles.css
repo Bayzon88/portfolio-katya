@@ -31,7 +31,7 @@ body {
   font-size: 1.4rem;
 }
 .katya h1, .katya .h1 {
-  color: purple;
+  color: rgba(165, 32, 165, 0.67);
 }
 
 #footer > div > span {
